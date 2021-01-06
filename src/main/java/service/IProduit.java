@@ -1,2 +1,5 @@
-package service;public interface IProduit {
+package service;
+
+public interface IProduit {
+
 }

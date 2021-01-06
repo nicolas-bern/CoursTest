@@ -1,2 +1,7 @@
-package service;public interface IServiceProduit {
+package service;
+
+public interface IServiceProduit {
+
+    void saveProduct();
+
 }
