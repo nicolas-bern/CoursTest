@@ -3,7 +3,11 @@ package tests;
 public class CalculeTU {
 
     public static int sommeDeuxEntiers(int a, int b){
-        return a + b;
+        if(a <= 0 || b <= 0){
+            throw new IllegalArgumentException();
+        } else {
+            return a + b;
+        }
     }
 
     public static int produitDeuxEntiers(int a, int b){
